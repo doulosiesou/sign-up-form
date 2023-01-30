@@ -1,0 +1,129 @@
+body {
+    background-color: RGB(207, 187, 161);
+}
+
+.page-container {
+    display: flex;
+}
+
+.left-sidebar {
+    padding: 10px;
+    position: relative; 
+
+    top: 0;
+    left: 0;
+    display: flex;
+}
+
+.right-sidebar {
+    width: 60%;
+    position: relative;
+    /* top: 33%;
+    left: 33%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.background-img {
+    position: relative;
+    top: 0;
+    left: 0;
+    border: 5px groove #f70707;
+}
+
+.logo {
+    z-index: 1;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.logo-img {
+
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
+
+.logo-text {
+    font-family: 'Skranji', cursive;
+    font-size: 72px;
+    color: aliceblue;
+    flex: 1;
+}
+
+.header-text {
+    /* font-family: 'Roboto', sans-serif; */
+    margin: 10% 0 0 10px;
+    font-family: 'Skranji', cursive;
+    font-size: 32px;
+    font-weight: 400;
+
+}
+
+.form-section {
+    margin: 20px 0 20px 0;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+
+}
+
+form {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.form-section-top,
+.form-section-middle,
+.form-section-bottom {
+    /* margin: 20px; */
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+}
+
+label, input {
+    font-family: 'Roboto', arial;
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    margin: 5px 20px 0 0;
+}
+
+input {
+    background-color: #E5E7EB;
+    border-radius: 10px;
+    border: solid 2px red;
+}
+
+.form-section-text {
+    margin-left: 10px;
+    font-family: 'Roboto', arial;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+button {
+    background-color: #E5E7EB;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px red solid;
+    margin-top: 20px;
+    font-family: 'Roboto' arial;
+    font-size: 24px;
+}
+
+.footer-text {
+    font-family: 'Roboto' arial;
+    font-size: 24px;
+    font-weight: 600;
+}
